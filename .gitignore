@@ -59,3 +59,20 @@ typings/
 
 # next.js build output
 .next
+
+
+
+# NPM #
+#######
+node_modules
+backstop_data/*
+
+
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+
+Thumbs.db
+._*

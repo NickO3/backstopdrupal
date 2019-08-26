@@ -1,0 +1,26 @@
+{
+  "name": "backstopjs-drupal",
+  "version": "1.0.0",
+  "description": "A commandline utility and node server to assist in creating drupal backstop tests",
+  "main": "backstop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backstopjs",
+    "regression testing"
+  ],
+  "author": "Nick Lewis",
+  "license": "MIT",
+  "devDependencies": {
+    "lodash": "^4.17.15",
+    "yargs": "^14.0.0"
+  },
+  "dependencies": {
+    "backstopjs": "^4.1.12",
+    "commander": "^3.0.0",
+    "request": "^2.88.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
