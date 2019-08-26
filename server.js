@@ -21,11 +21,11 @@ app.get('/', function (req, res) {
     'scenario': req.query.scenario
   });
   res.set('Content-Type', 'text/plain')
-  res.send(`You sent: ${response} to Express`)
+  res.send('Patience... robots are doing work. ')
 });
 
 // Tell our app to listen on port 3000
-app.listen(4242, function (err) {
+app.listen(80, function (err) {
   if (err) {
     throw err
   }
