@@ -13,7 +13,7 @@
   "author": "Nick Lewis",
   "license": "MIT",
   "devDependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "yargs": "^14.0.0"
   },
   "dependencies": {
